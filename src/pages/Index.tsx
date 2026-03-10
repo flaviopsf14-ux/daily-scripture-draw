@@ -213,7 +213,7 @@ const Index = () => {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[hsl(var(--primary))]/15">
                 <Sparkles className="h-6 w-6 text-[hsl(var(--primary))]" />
               </div>
-              <p className="font-verse text-xl leading-relaxed italic text-gray-800 sm:text-2xl">
+              <p className="font-verse text-2xl leading-relaxed italic text-gray-800 sm:text-3xl">
                 "{currentVerse.text}"
               </p>
               <span className="text-base font-semibold tracking-wide text-[hsl(var(--primary))]">
